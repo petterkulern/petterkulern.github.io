@@ -7,10 +7,19 @@
 
 }
 
-body {
+body.one {
   font-family: 'MyFont', sans-serif; /* Use the custom font */
+  background-color:rgb(0, 0, 0);
+
 }
 
+body.two {
+  font-family: 'MyFont', sans-serif; /* Use the custom font */
+  background-image: url('../images/forest.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 1000px;
+}
 
 h1 {
     text-align: center;
@@ -27,7 +36,7 @@ h2 {
   font-size: 100px;
   margin-bottom: 100px;
   margin-top: 100px;
-  color:rgb(0,60,40);
+  color:rgb(150,240,200);
 }
 
 
@@ -35,7 +44,7 @@ h2 {
 
 p2 {
     display: block;
-    /* text-align: center; */
+    text-align: center;
     font-family: "Comic Sans MS", "Comic Sans";
     font-size: 20px;
     padding: 1em 1em;
@@ -44,11 +53,11 @@ p2 {
 
 p3 {
   display: block;
-  /* text-align: center; */
+  text-align: center;
   font-family: "Comic Sans MS", "Comic Sans";
   font-size: 20px;
   padding: 1em 1em;
-  color:rgb(0,60,40);
+  color:rgb(150,240,200);
 }
 
 
@@ -82,9 +91,20 @@ a.one:visited {
 
 
 .paragraph {
+  text-align: center;
   text-align: left;
   width: 40%px;
 }
+
+
+.ulv {
+  position: absolute;
+  right: 50%;
+  /*width: 40%;*/
+  margin-right: -100px;
+  margin-top: 10px;
+}
+
 
 .flex-container {
   display: flex;
