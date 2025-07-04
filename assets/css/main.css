@@ -111,6 +111,16 @@ a.three {
   text-decoration: none;
 }
 
+a.four {
+  text-align: center;
+  display: block;
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-size: 50px;
+  color: rgb(255,0,255);
+  text-decoration: none;
+}
+
+
 
 /*
 a.one:visited {
