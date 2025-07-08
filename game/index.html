@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=700 height=500 tabindex="-1" style="width: 700px; height: 500px; background: #231F20"></canvas>
-    <script src="Build/0.0.loader.js"></script>
+    <script src="Build/game.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -27,9 +27,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/0.0.data.unityweb",
-        frameworkUrl: "Build/0.0.framework.js.unityweb",
-        codeUrl: "Build/0.0.wasm.unityweb",
+        dataUrl: "Build/game.data.unityweb",
+        frameworkUrl: "Build/game.framework.js.unityweb",
+        codeUrl: "Build/game.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "petter kul",
         productName: "gomgom",
